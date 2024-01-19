@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Exam Form</title>
+    <style type="text/css"></style>
+    <style>
+      #Formdiv{
+                 font-size: larger;
+                 color: darkblue;
+                
+        }
+    .inputclass{
+        border-radius: 4px;
+        border: none;
+            
+                    
+    }
+    body{
+        background-image: url("1.gpg.jpg");
+        background-size: cover;
+    }
+    form{
+        margin-left: 63%;
+        margin-top: 10%;
+    }
+    .btnclass{
+        background-color: gold;
+        border: none;
+        margin-left: 10px;
+        border-radius: 5px;
+    }
+    .btnclass:hover{
+        background-color: limegreen;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+   
+
+<div id="Formdiv">
+    <form name="f1">
+
+        <table>
+      <tr>
+        <th colspan="2">
+        <h2 style="color: red;">MPSC Exam Regirstation Form</h2>
+        </th>
+    </tr>
+        <td>First name</td>
+        <td><input type="text" name="fname" class="inputclass"></td>
+    </tr>
+        
+    <tr>
+        <td>Last name</td>
+        <td><input type="text" name="lname" class="inputclass"></td>
+    </tr>
+
+    <tr>
+        <td>Phoneno</td>
+        <td><input type="number" name="phoneno" class="inputclass"></td>
+        </tr>
+
+    <tr>
+        <td>Age</td>
+        <td><input type="number" name="age" class="inputclass"></td>
+    </tr>
+
+    <tr>
+        <td>City</td>
+        <td><input type="text" name="city" class="inputclass"></td>
+        </tr>
+  
+ <tr>
+    <td>Educartion</td>
+    <td>
+    <input type="radio" name="Edu" value="Graduation">Graduate
+    <input type="radio" name="Edu" value="PostGraduate">PostGraduate
+    <input type="radio" name="Edu" value="PHD">PHD
+    </td>
+ </tr>
+ <tr>
+    <td>Address</td>
+    <td><textarea input type="text" name="Address"></textarea></td>
+ </tr>
+
+ <tr>
+    <td colspan="2" align="center">
+        <input type="submit" value="Regirster" class="btnclass" onclick="return " class="btnclass" >
+        <input type="reset"  value="Reset" class="btnclass">
+    </td>
+ </tr>
+
+
+    </form>
+</table>
+
+</div>
+</body>
+</html>
